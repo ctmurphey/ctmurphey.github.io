@@ -1,4 +1,6 @@
-## [Homepage](www.ctmurphey.github.io) [Research](www.ctmurphey.github.io/research) [Side Projects](www.ctmurphey.github.io/projects)
+# About Me
+
+## [Homepage](https://ctmurphey.github.io) | [Research](http://ctmurphey.github.io/research) | [Side Projects](http://ctmurphey.github.io/projects) | [Contact](http://ctmurphey.github.io/contact)
 
 ## University of Illinois
 I attended the University of Illinois at Urbana-Champaign from 2016 to 2020, where I graduated with a B.S in Astronomy, double minoring in Physics and Computer Engineering. While there, I did research under professor Brian Fields in galactic supernova distributions. The culmination of this research resulted in my first primary authorship with [this paper](https://arxiv.org/abs/2012.06552), which was also publised in the [*Monthly Notices of the Royal Astronomical Society*](https://academic.oup.com/mnras/article-abstract/507/1/927/6330468?redirectedFrom=fulltext). Outside of this paper, I also participated in a [collaborative white paper](https://arxiv.org/abs/1811.12433v1) urging the Legacy Survey of Space and Time to not ignore the Galactic plnce with their cadence by discussing several potential research opportuinites the LSST can provide. The (poorly organized) repository for my research code can be found [here](https://github.com/ctmurphey/Undergrad-Research).
