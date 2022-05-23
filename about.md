@@ -11,3 +11,7 @@ Outside of classes and research, I also participated in my university's robotics
 I am currently pursuing a Masters in Physics at Stony Brook University, as well as a Certificate in Advance Data and Computational Science, set to graduate in 2023. Researching under professor Will Farr, I've had the priveledge to be part of the Gravitational Wave Group at the Flatiron Institute's Center For Compuational Astrophysics (CCA). In my research, I do mass function cosmology using publicly available LIGO data. In particular, I use the overabundance of black holes with masses around 35M<sub>sun</sub> to put constraints on the Hubble constant and other cosmic parameters.
 
 Growing up an avid baseball fan, for fun I've recently started diving into data analytics for the sport. My first project for it, the final project for a data science class I took in the Spring 2022 semester, was to test how well different machine learning models were able to calculate which players were Hall of Famers based on their career and season-level statistics. In the future, I hope to extend that project and to do more projects with different datasets.
+
+
+![img](photos/grad-mask-selfie.jpg)
+

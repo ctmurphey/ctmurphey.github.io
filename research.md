@@ -17,3 +17,5 @@ The end result of this 2.5 years of research was the first paper in the Publicat
 Murphey, C., et. al., *Witnessing History: Rates and Detectability of Milky Way Supernovae*, (2020): [arXiv](https://arxiv.org/abs/2012.06552) | [ADS](https://ui.adsabs.harvard.edu/abs/2021MNRAS.507..927M/abstract) | [MNRAS](https://academic.oup.com/mnras/article-abstract/507/1/927/6330468?redirectedFrom=fulltext) | [*Popular Science* article](https://www.popsci.com/story/science/where-are-all-the-supernovae/)
 
 Strader, J., et. al., *The Plane's the Thing: The Case for Wide-Fast-Deep Coverage of the Galactic Plane and Bulge*, (2018): [arXiv](https://arxiv.org/abs/1811.12433v1)
+
+![img](photos/O3a-code-screenshot.png)
