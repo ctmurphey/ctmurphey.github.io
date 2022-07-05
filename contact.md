@@ -10,3 +10,5 @@
 ### Personal Github: https://github.com/ctmurphey
 
 ### School Github: https://github.com/tannermurphey
+
+### LinkedIn: [Chauncey Murphey](https://www.linkedin.com/in/chaunceymurphey/)
