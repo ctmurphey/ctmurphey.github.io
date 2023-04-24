@@ -12,7 +12,7 @@ My final project for a graduate-level Data Science class I took in Spring 2022. 
 
 ![img](photos/FIP-screenshot.png)
 
-## Current MLB Data Visualization [GitHub Repo](https://github.com/ctmurphey/baseball)
-An expanding collection of smaller "just for fun" projects centered around current stats for Major League Baseball. The first project, `mets-season-series`, tracks how the New York Mets (my favorite team) are doing vs the different opponents they face throughout the season. More code will undoubtably come when I come up with the inspitation for them.
+## Current MLB Data Visualization [GitHub Repo](https://github.com/ctmurphey/season-series-bot)
+The first side project of my dabble into MLB data. It tracks how the New York Mets (my favorite team) are doing vs the different opponents they face throughout the season. My next project is to expand this create a bot to automatically post to Reddit following games and then to handle multiple teams with different posting frequencies.
 
 ![img](photos/mets-series.jpg)
