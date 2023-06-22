@@ -3,10 +3,10 @@
 ## [Homepage](https://ctmurphey.github.io) | [About Me](https://ctmurphey.github.io/about) | [Other Projects](https://ctmurphey.github.io/projects) | [Contact](http://ctmurphey.github.io/contact)
 
 
-## Current:
-My current Masters thesis research focuses on analyzing black hole merger events detected in LIGO. In particular, I'm using the overabundance of masses around 35 solar masses to constrain cosmic parameters like the Hubble constant. I do this work as part of the Gravitational Wave Group at the Flatiron Institute's Center for Computational Astrophysics under professor Will Farr. 
+## Master's:
+My  Masters thesis research focused on analyzing black hole merger events detected in LIGO. In particular, I'm using the overabundance of masses around 35 solar masses to constrain cosmic parameters like the Hubble constant. By only focusing on this one feature instead of all features of the distribution, our goal was to estimate values like the Hubble constant and dark energy density much faster than other methods. I did this work as part of the Gravitational Wave Group at the Flatiron Institute's Center for Computational Astrophysics under professor Will Farr. 
 
-## Previous:
+## Bachelor's:
 For my undergraduate research at the University of Illinois, I worked with fellow undergraduate Jacob Hogan and professor Brian Fields on Galactic supernovae populations. We used simple double exponential models for both dust and supernova distributions in the Galaxy and focused of their visibility from Earth. Our work focused on two goals: explain the descrepency between predicted supernova rates (~3/century) and the 415+ year gap since the last visible one and map where on the sky where we are most likely to see them. In the end, we felt that dust could sufficiently account for most of the reason we haven't seen one since 1604 but our probability distribution didn't line up well with the (albeit few) historic Galactic Supernovae, suggesting that our model worked well for the big picture, but needed adjustment in the details of the distribution.
 
 The end result of this 2.5 years of research was the first paper in the Publications section. It was published in *Monthly Notices* but an arXiv preprint is linked below. An article was also written about it in *Popular Science* shortly after publication, which is linked below as well.
