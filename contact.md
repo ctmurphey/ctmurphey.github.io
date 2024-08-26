@@ -9,4 +9,3 @@
 
 ### Personal Github: https://github.com/ctmurphey 
 
-### Twitter: @astromurphey
