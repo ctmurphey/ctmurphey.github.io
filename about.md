@@ -6,7 +6,7 @@
 **(Currently out of date, will be updated eventually)**
 
 ## University of Illinois (PhD)
-I returned to UIUC after a 3-year haitus to work with professor Gautham Narayan searching for supernovae across the night sky. I'm now part of the *Young Supernova Experiment* (YSE) and *SIRAH* collaborations. For both, I'm leading the processing of images from the Dark Energy Camera (DECam), turning these images of esupernovae into plots of their brightness over time (light curves). I'm hoping that this work leads to at least two or three papers by the end of 2025, so stay tuned!
+I returned to UIUC after a 3-year haitus to work with professor Gautham Narayan searching for supernovae across the night sky. I'm now part of the *Young Supernova Experiment* (YSE) and *SIRAH* collaborations. For both, I'm leading the processing of images from the Dark Energy Camera (DECam), turning these images of supernovae into plots of their brightness over time (light curves). I'm hoping that this work leads to at least two or three papers by the end of 2025, so stay tuned!
 
 ## Stony Brook University
 I obtained a Masters in Physics at Stony Brook University, as well as a Certificate in Advance Data and Computational Science, in May 2023. Researching under professor Will Farr, I've had the priveledge to be part of the Gravitational Wave Group at the Flatiron Institute's Center For Computational Astrophysics (CCA). In my research, I do mass function cosmology using publicly available LIGO data. In particular, I use the overabundance of black holes with masses around 35M<sub>sun</sub> to put constraints on the Hubble constant and other cosmic parameters much faster than the methods LIGO employs themselves.
