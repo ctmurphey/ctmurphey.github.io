@@ -1,6 +1,6 @@
 # Side Projects
 
-## [Homepage](https://ctmurphey.github.io) | [About Me](https://ctmurphey.github.io/about) | [Research](https://ctmurphey.github.io/research) | [Contact](http://ctmurphey.github.io/contact)
+## [Homepage](https://ctmurphey.github.io) | [About Me](https://ctmurphey.github.io/about) | [Research](https://ctmurphey.github.io/research) | [Outreach](https://ctmurphey.github.io/outreach) | [Contact](http://ctmurphey.github.io/contact)
 
 ## Hertzsprung-Russell Fitting with GAIA Data [Github Repo](https://github.com/ctmurphey/H-R-Analysis)
 My final project in my graduate-level Stellar Astrophysics class I took in Fall 2021. I took a small section of data from the most recent GAIA release and used Markov Chain-Monte Carlo (MCMC) to fit a power law to the main sequence line of the H-R diagram of the distance modulus-adjusted data. After a simple fit to the entire data produced an understandably poor line, a secondary distribution was added to filter our non-MS stars, making a much better fit to the correct data.

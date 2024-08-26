@@ -1,7 +1,9 @@
 # Research
 
-## [Homepage](https://ctmurphey.github.io) | [About Me](https://ctmurphey.github.io/about) | [Other Projects](https://ctmurphey.github.io/projects) | [Contact](http://ctmurphey.github.io/contact)
+## [Homepage](https://ctmurphey.github.io) | [About Me](https://ctmurphey.github.io/about) | [Other Projects](https://ctmurphey.github.io/projects) | [Outreach](https://ctmurphey.github.io/outreach) | [Contact](http://ctmurphey.github.io/contact)
 
+## PhD:
+My first (and current) project as a PhD student is to turn image data taken by the Dark Energy Camera (DECam) into usable light curves for the Young Supernova Experiment (YSE) collaboration. This includes finding supernovae in old data (2021-now) and detecting new ones as they appear. This data will be released as part of the YSE 2nd data release sometime ideally in 2025.
 
 ## Master's:
 My  Masters thesis research focused on analyzing black hole merger events detected in LIGO. In particular, I'm using the overabundance of masses around 35 solar masses to constrain cosmic parameters like the Hubble constant. By only focusing on this one feature instead of all features of the distribution, our goal was to estimate values like the Hubble constant and dark energy density much faster than other methods. I did this work as part of the Gravitational Wave Group at the Flatiron Institute's Center for Computational Astrophysics under professor Will Farr. 
