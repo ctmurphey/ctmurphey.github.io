@@ -1,23 +1,19 @@
 export const profile = {
-	fullName: 'Your Name',
-	title: '',
-	institute: '',
-	author_name: '', // Author name to be highlighted in the papers section
+	fullName: 'C. Tanner Murphey',
+	title: 'PhD Student',
+	institute: 'University of Illinois',
+	author_name: 'C. T. Murphey', // Author name to be highlighted in the papers section
 	research_areas: [
 		// { title: 'Physics', description: 'Brief description of the research interest', field: 'physics' },
+		{title: 'Supernovae', description: 'I search for very recently exploded stars (supernovae) with the Dark Energy Camera as part of the Yound Supernova Experiment Collaboration.'}
 	],
 }
 
 // Set equal to an empty string to hide the icon that you don't want to display
 export const social = {
-	email: '',
-	linkedin: '',
-	x: 'https://www.x.com/',
-	github: '',
-	gitlab: '',
-	scholar: '',
-	inspire: '',
-	arxiv: '',
+	email: 'murphey2[at]illinois.edu',
+	bluesky: 'https://bsky.app/profile/murphey.bsky.social',
+	github: 'https://github.com/ctmurphey',
 }
 
 export const template = {
