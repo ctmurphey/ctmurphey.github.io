@@ -1,7 +1,7 @@
 export const profile = {
 	fullName: 'Tanner Murphey',
 	title: 'PhD Student',
-	institute: 'University of Illinois',
+	institute: 'UIUC',
 	author_name: 'C. T. Murphey', // Author name to be highlighted in the papers section
 	research_areas: [
 		// { title: 'Physics', description: 'Brief description of the research interest', field: 'physics' },
