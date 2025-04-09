@@ -25,7 +25,7 @@ export const template = {
 	darkTheme: 'dark', // Select one of the Daisy UI Themes or create your own
 	excerptLength: 200,
 	postPerPage: 5,
-    base: '/astro_academia' // Repository name starting with /
+    base: '/ctmurphey.github.io/' // Repository name starting with /
 }
 
 export const seo = {
