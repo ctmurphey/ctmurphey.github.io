@@ -14,6 +14,8 @@ export const social = {
 	email: 'murphey2[at]illinois.edu',
 	bluesky: 'https://bsky.app/profile/murphey.bsky.social',
 	github: 'https://github.com/ctmurphey',
+	reddit: 'https://www.reddit.com/user/just-an-astronomer',
+	bluesky: 'https://bsky.app/profile/astronomurphey.bsky.social',
 }
 
 export const template = {
