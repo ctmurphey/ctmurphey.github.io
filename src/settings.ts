@@ -5,7 +5,9 @@ export const profile = {
 	author_name: 'C. T. Murphey', // Author name to be highlighted in the papers section
 	research_areas: [
 		// { title: 'Physics', description: 'Brief description of the research interest', field: 'physics' },
-		{title: 'Supernovae', description: 'I search for very supernovae with the Dark Energy Camera.'}
+		{title: 'Supernovae', description: 'I search for very supernovae with the Dark Energy Camera.'},
+		{title: 'Data Science', description: "I'm an LSST DA Data Science Fellow analyzing hundreds of supernovae."},
+		{title: 'High Performance Computing', description: "I image process over 100TB of raw images on the Illinois Campus Cluster"}
 	],
 }
 
