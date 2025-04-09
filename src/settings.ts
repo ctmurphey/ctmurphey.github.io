@@ -21,8 +21,8 @@ export const template = {
 	website_url: 'https://ctmurphey.github.io',
 	menu_left: false,
 	transitions: true,
-	lightTheme: 'light', // Select one of the Daisy UI Themes or create your own
-	darkTheme: 'dark', // Select one of the Daisy UI Themes or create your own
+	lightTheme: 'aqua', // Select one of the Daisy UI Themes or create your own
+	darkTheme: 'black', // Select one of the Daisy UI Themes or create your own
 	excerptLength: 200,
 	postPerPage: 5,
     base: '/' // Repository name starting with /
