@@ -1,11 +1,11 @@
 export const profile = {
-	fullName: 'C. Tanner Murphey',
+	fullName: 'Tanner Murphey',
 	title: 'PhD Student',
 	institute: 'University of Illinois',
 	author_name: 'C. T. Murphey', // Author name to be highlighted in the papers section
 	research_areas: [
 		// { title: 'Physics', description: 'Brief description of the research interest', field: 'physics' },
-		{title: 'Supernovae', description: 'I search for very recently exploded stars (supernovae) with the Dark Energy Camera as part of the Yound Supernova Experiment Collaboration.'}
+		{title: 'Supernovae', description: 'I search for very supernovae with the Dark Energy Camera.'}
 	],
 }
 
