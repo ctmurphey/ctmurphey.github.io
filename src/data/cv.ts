@@ -1,10 +1,10 @@
 export const experiences = [
 	{
-		company: '',
-		time: '',
-		title: '',
-		location: '',
-		description: '',
+		company: 'University of Illinois',
+		time: '2023-current',
+		title: 'Research Assistant',
+		location: 'Urbana, IL',
+		description: 'Working under Gautham Narayan to analyze 4+ years worth of DECam supernova data',
 	},
 	// {
 	// 	company: 'Radium Institute (Institut du Radium)',
@@ -17,19 +17,26 @@ export const experiences = [
 
 export const education = [
 	{
-		school: '',
-		time: '',
-		degree: '',
-		location: '',
-		description: '',
+		school: 'University of Illinois, Urbana-Champaign',
+		time: '2023-current',
+		degree: 'PhD in Astronomy',
+		location: 'Urbana, IL',
+		description: 'PhD Thesis: The YSE DECam Supernova Catalog',
 	},
-	// {
-	// 	school: 'University of Paris',
-	// 	time: '1891 - 1895',
-	// 	degree: 'Master’s in Physics and Mathematics',
-	// 	location: 'Paris, France',
-	// 	description: 'Graduated at the top of her class in physics and second in mathematics.',
-	// },
+	{
+		school: 'Stony Brook University',
+		time: '2021-2023',
+		degree: 'M.A. in Physics',
+		location: 'Stony Brook, NY',
+		description: 'Master\'s Thesis: Rapid Mass-Function Cosmology using LIGO Binary Black Hole Mergers',
+	},
+	{
+		school: 'University of Illinois, Urbana-Champaign',
+		time: '2016-2020',
+		degree: 'B.S. in Astronomy',
+		location: 'Urbana, IL',
+		description: 'Bachelor\'s Thesis: Rates and Detectability of Naked-eye Milky Way Supernovae',
+	},
 ];
 
 export const skills = [
