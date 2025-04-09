@@ -5,7 +5,7 @@ import BetterIcon from "@/components/ui/BetterIcon.astro";
 import List from "@/components/ui/List.astro";
 import {RESEARCH_ICONS} from "@/data/researchIcons";
 
-const { research_areas } = profile;
+// const { research_areas } = profile;
 ---
 
 <Layout title="Research | Dr. Marie Curie">
@@ -22,7 +22,7 @@ const { research_areas } = profile;
     </div>
 
     <h2 class="text-2xl font-bold mb-6">Research Areas</h2>
-    <div class="grid gap-8 mb-12">
+    <!-- <div class="grid gap-8 mb-12">
       {
         research_areas.map((area) => (
           <div class="flex gap-6 items-start">
@@ -48,7 +48,7 @@ const { research_areas } = profile;
           </div>
         ))
       }
-    </div>
+    </div> -->
 
     <List listTitle="Current Projects" listItems={[
       {
