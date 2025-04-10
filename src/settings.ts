@@ -5,16 +5,15 @@ export const profile = {
 	author_name: 'C. T. Murphey', // Author name to be highlighted in the papers section
 	research_areas: [
 		// { title: 'Physics', description: 'Brief description of the research interest', field: 'physics' },
-		{title: 'Supernovae', description: 'I search for very supernovae with the Dark Energy Camera as part of the Young Supernova Experiment.'},
-		{title: 'Data Science', description: "I'm an LSST DA Data Science Fellow analyzing hundreds of supernovae."},
-		{title: 'High Performance Computing', description: "I use the Illinois Campus Cluster to process over 100TB of raw image data"}
+		{title: 'Supernovae', description: 'I study the brightest explosions in the universe, the ones that create many of the elements we need for life as well as tell us about the very history of the universe we live in.', field:'physics'},
+		{title: 'Data Science', description: "I'm an LSST-DA Data Science Fellow specializing in the study of large populations of supernovae. By studying these at a population level, we can answer questions like \"How vast is the universe expanding?\" and \"How did the elements past Carbon get to the abundances we see them at today?\"", field:'computer-science'},
+		{title: 'High Performance Computing', description: "I work with extreme amounts of raw image data, well over 100TB. To process this, I use the Illinois Campus Cluster and am a member of the Center for Astrophysical Surveys at the National Center for Supercomputing Applications", field: 'engineering'}
 	],
 }
 
 // Set equal to an empty string to hide the icon that you don't want to display
 export const social = {
 	email: 'murphey2[at]illinois.edu',
-	bluesky: 'https://bsky.app/profile/murphey.bsky.social',
 	github: 'https://github.com/ctmurphey',
 	reddit: 'https://www.reddit.com/user/just-an-astronomer',
 	bluesky: 'https://bsky.app/profile/murphey.bsky.social',

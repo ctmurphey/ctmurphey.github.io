@@ -5,24 +5,24 @@ import BetterIcon from "@/components/ui/BetterIcon.astro";
 import List from "@/components/ui/List.astro";
 import {RESEARCH_ICONS} from "@/data/researchIcons";
 
-// const { research_areas } = profile;
+const { research_areas } = profile;
 ---
 
-<!-- <Layout title="Research | Dr. Marie Curie"> -->
-  <!-- <div class="prose max-w-none">
-    <h1 class="text-3xl font-bold mb-8">Research Statement</h1>
+<Layout title="Research | Tanner Murphey">
+  <div class="prose max-w-none"> 
+    <h1 class="text-3xl font-bold mb-8">Research</h1>
 
     <div class="mb-12">
       <p class="text-lg mb-6">
-        My research involves searching for new exploding stars (supernovae) with the Dark Energy Camera in Chile. The earlier we can catch these new transients, the earlier we can get follow-up data using other instruments like spectrometers to probe the conditions immediately after the explosion.
+        I collect and analyze data on hundreds of exploding stars (supernovae), studying them at a population level. I mainly use the Dark Energy Camera (DECam) in Chile as part of the Young Supernova Experiment. In particular, I focus on getting data and detecting them as early as possible to enable followup with other instruments like other non-survey telescopes and spectrometers
       </p>
       <p class="text-lg mb-6">
-        These supernovae can tell us many things about our universe, from how fast it's expanding to how many of the elements critical for life (like iron, oxygen, sulfer, and phosphorus) are produced in the abundances that we see in the universe today. 
+        These supernovae can tell us many things about our universe, from how fast it's expanding to how many of the elements critical for life (like iron, oxygen, sulfer, and phosphorus) are produced in the abundances that we see in the universe today. There are many open questions about how the universe got to be the way it is today and probing some of the most energetic processes in the universe has the potential to answer some of them.
       </p>
     </div>
 
-    <h2 class="text-2xl font-bold mb-6">Research Areas</h2> -->
-    <!-- <div class="grid gap-8 mb-12">
+    <h2 class="text-2xl font-bold mb-6">Research Areas</h2> 
+      <div class="grid gap-8 mb-12"> 
       {
         research_areas.map((area) => (
           <div class="flex gap-6 items-start">
@@ -37,7 +37,7 @@ import {RESEARCH_ICONS} from "@/data/researchIcons";
                 <path
                   stroke-linecap="round"
                   stroke-linejoin="round"
-                  d={RESEARCH_ICONS[area.field as keyof typeof RESEARCH_ICONS]?.path || RESEARCH_ICONS['computer-science'].path}
+                  d={RESEARCH_ICONS[area.field as keyof typeof RESEARCH_ICONS]?.path || RESEARCH_ICONS['physics'].path}
                 />
               </svg>
             </BetterIcon>
@@ -48,20 +48,20 @@ import {RESEARCH_ICONS} from "@/data/researchIcons";
           </div>
         ))
       }
-    </div> -->
+    </div>
 
-    <!-- <List listTitle="Current Projects" listItems={[
+    <List listTitle="Current Projects" listItems={[
       {
         title: "Interesting Transients",
-        description: "DECam sees many transients when it observes. Some of these are rare or peculiar and push the limits of our knowledge about the universe around us."
+        description: "When you have data on hundreds of transients, some of these are rare or peculiar and push the limits of our knowledge about the universe around us. Learning about these oddballs allows us to better understad why our universe is the way it is today."
       },
       {
         title: "Preparing for Rubin",
-        description: "When the Vera Rubin Observatory turns on, it will usher a new wave of transient discovery. Few telescopes have both the field of view and viewing depth that DECam has, allowing us to better calibrate Rubin as it goes through its commissioning phase."
+        description: "When the Vera Rubin Observatory turns on, it will usher a new wave of transient discovery. Survey telescopes like DECam will be tasked with helping with preparing and calibrating Rubin. By observing the planned Deep-Drilling Fields with DECam that Rubin is observing for its commissioning, we can ensure that when it fully turns on at the end of 2025 it is ready to hit the ground running."
       },
       {
-        title: "Supernova Cosmology",
-        description: "With the recent publications involving the potential of evolving Dark Energy, we need more supernova data to test that theory's validity"
+        title: "Cosmology",
+        description: "Since the 1990s, Type-Ia supernovae have been used to probe the expansion of the universe. In the following years, several disagreements about the rate of expansion have risen. Recent findings suggest that the dark energy that drives the expansion may not be the cosmological constant we thought it was, but rather one that evolves with time. The next supernova surveys will finally be able to go deep enough on their own to confirm or deny these findings."
       },
     ]} />
 
@@ -69,5 +69,5 @@ import {RESEARCH_ICONS} from "@/data/researchIcons";
     <p class="text-lg mb-6">
       My research probes many different aspects of how our universe got to be the way it is. This work provides a unique opportunity to do deep studies of large populations of the largest producers of heavy elements in the universe.
     </p>
-  </div> -->
-<!-- </Layout> -->
+  </div> 
+ </Layout> 
