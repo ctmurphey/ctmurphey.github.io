@@ -1,11 +1,12 @@
 ---
-import { profile } from '@/settings'
-const { fullName } = profile;
+import Layout from "@/layouts/Layout.astro";
 ---
 
-<main class="px-6 py-10">
-  <h1 class="text-4xl font-bold mb-4 text-primary">Outreach</h1>
-  <p class="text-lg text-base-content">
-    This is the Outreach page for {fullName}. Add your content here.
-  </p>
-</main>
+<Layout title="Outreach | Tanner Murphey">
+  <div class="prose max-w-none">
+    <h1 class="text-3xl font-bold mb-8">Outreach</h1>
+    <p class="text-lg mb-6">
+      This is the Outreach page. You can describe your public talks, community science projects, student mentoring, or anything else here.
+    </p>
+  </div>
+</Layout>
