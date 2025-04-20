@@ -22,7 +22,7 @@ const { title, description, imageSrc, alt = "" } = Astro.props;
     )}
     <div class={`${imageSrc ? 'lg:w-1/2' : ''}`}>
       <h2 class="text-2xl font-semibold mb-2">{title}</h2>
-      <p class="text-base whitespace-pre-line">{description}</p>
+      <p class="text-base whitespace-normal">{description}</p>
     </div>
   </div>
 </div>
