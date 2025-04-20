@@ -1,0 +1,26 @@
+---
+export interface Props {
+  title: string;
+  description: string;
+  imageSrc?: string; // optional
+  alt?: string;
+}
+
+const { title, description, imageSrc, alt = "" } = Astro.props;
+---
+
+<div class="bg-base-200 rounded-xl p-6 mb-8 shadow-md">
+  <div class={`flex flex-col ${imageSrc ? 'lg:flex-row gap-6 items-center' : ''}`}>
+    {imageSrc && (
+      <img
+        src={imageSrc}
+        alt={alt}
+        class="w-full max-w-sm rounded-lg object-cover"
+      />
+    )}
+    <div class={`${imageSrc ? 'lg:w-1/2' : ''}`}>
+      <h2 class="text-2xl font-semibold mb-2">{title}</h2>
+      <p class="text-base">{description}</p>
+    </div>
+  </div>
+</div>
