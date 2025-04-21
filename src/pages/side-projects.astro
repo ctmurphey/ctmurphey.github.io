@@ -18,6 +18,9 @@ import HRDiagImg from "@/assets/HR-fit.png"
     <SideProjectItem
       title="Season Series Bot"
       github="https://github.com/ctmurphey/season-series-bot"
+      imageSrc={SeasonSeriesImg}
+      alt="A stacked bar plot showing how the Mets are doing against individual other teams."
+    >
       <p>I've very passionate about baseballI found it a very interesting 
       perspective to see not only how my MLB team is doing overall, but how they're 
       faring against individual teams in the league. I wrote a script that pull game 
@@ -29,15 +32,16 @@ import HRDiagImg from "@/assets/HR-fit.png"
       in the comments about individual games/series against certain teams that had large 
       effects on the current state of the team. I just think it's a super neat visualisation.
     </p>
-      imageSrc={SeasonSeriesImg}
-      alt="A stacked bar plot showing how the Mets are doing against individual other teams."
-    />
+  </SideProjectItem>
 
     <hr class="my-6 border-t border-gray-300" />
 
     <SideProjectItem
       title="Machine Learning Methods to Predict Baseball Hall-of-Famers"
       github="https://github.com/ctmurphey/ML-BaseballHoF/"
+      imageSrc={MLTableImg}
+      alt="Table showing F1 Scores of multiple different machine learning methods across multiple datasets."
+      >
       <p>This was for a final project for AMS 561: <em>Introduction to Computational and Data 
       Science</em> for the Fall 2022 Semester at Stony Brook. The goal was to test how various ML methods were able to 
       classify whether or not a player made it into the Hall of Fame. Data was initially in the forms of 
@@ -45,15 +49,16 @@ import HRDiagImg from "@/assets/HR-fit.png"
       read the pdf in the GitHub repo and peruse <code>baseballstats.py</code> to see how the stats are 
       calculated.
     </p>
-      imageSrc={MLTableImg}
-      alt="Table showing F1 Scores of multiple different machine learning methods across multiple datasets."
-    />
+    </SideProjectItem>
 
     <hr class="my-6 border-t border-gray-300" />
 
     <SideProjectItem
       title="Using Markov Chain Monte Carlo to Fit a Law to the Hertzsprung-Russell Diagram"
       github="https://github.com/ctmurphey/H-R-Analysis"
+      imageSrc={HRDiagImg}
+      alt="An HR diagram with a line going through the main portion of stars plotted in it"
+      >
       <p>For my final project for PHY 521: <em>Stars</em> at Stony Brook, I played around with some Gaia 
         data and fit a power law to the main sequence portion of a Hertzsprung-Russell (H-R) diagram using 
         Markov Chain Monte Carlo (MCMC). The first portion made the naive assumption that all of the points 
@@ -67,8 +72,6 @@ import HRDiagImg from "@/assets/HR-fit.png"
       made in the 1910s, massively increased our understanding of how stars evolve over time and are probably 
       my favorite astronomy technique for how much such a simple scatter plot was able to teach us.
     </p>
-      imageSrc={HRDiagImg}
-      alt="An HR diagram with a line going through the main portion of stars plotted in it"
-    />
+  </SideProjectItem>
   </div>
 </Layout>
