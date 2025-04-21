@@ -1,7 +1,7 @@
 export const profile = {
 	fullName: 'Tanner Murphey',
 	title: 'PhD Student',
-	institute: 'UIUC',
+	institute: 'the University of Illinois, Urbana-Champaign',
 	author_name: 'C. T. Murphey', // Author name to be highlighted in the papers section
 	research_areas: [
 		// { title: 'Physics', description: 'Brief description of the research interest', field: 'physics' },
@@ -33,6 +33,6 @@ export const template = {
 
 export const seo = {
 	default_title: 'Tanner Murphey',
-	default_description: 'PhD Student at UIUC hunting exploding stars.',
+	default_description: 'PhD Student at UIUC hunting exploding stars. Passionate about space, statistics, and sports.',
 	default_image: '/images/astro-academia.png',
 }
