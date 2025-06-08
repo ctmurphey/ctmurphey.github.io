@@ -1,0 +1,72 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import TalkSection from "@/components/ui/TalkSection.astro";
+---
+
+<Layout title="Talks | Tanner Murphey">
+  <div class="prose max-w-none">
+    <h1 class="text-3xl font-bold mb-8">Talks</h1>
+
+    <TalkSection title="Astronomy Coding Education" subtitle="Talks given to Astronomy Graduate students on how to use certain software.">
+      <div class="flex flex-col gap-8">
+        <div class="flex flex-col lg:flex-row gap-6 items-center">
+          <iframe
+            width="400"
+            height="225"
+            src="https://www.youtube.com/embed/-dq5vnra3z8?si=rQhU1F67X81KRJqQ"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            class="rounded-lg w-full lg:w-2/5"
+          ></iframe>
+          <div class="lg:w-3/5">
+            <h3 class="text-xl font-semibold mb-2">Intro to the Unix Terminal and Filesystem</h3>
+            <p>Introduced the basics of how a use a Unix terminal to navigate and work with files.</p>
+          </div>
+        </div>
+
+        <div class="flex flex-col gap-8">
+            <div class="flex flex-col lg:flex-row gap-6 items-center">
+              <iframe
+                width="400"
+                height="225"
+                src="https://www.youtube.com/embed/XCdy4KpftZ8?si=m1PTGA4Q8LAfEa_I"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+                class="rounded-lg w-full lg:w-2/5"
+              ></iframe>
+              <div class="lg:w-3/5">
+                <h3 class="text-xl font-semibold mb-2">Intro to the Illinois Campus Cluster</h3>
+                <p>Introduced the Illinois Campus HPC Cluster. Covered how it works, how to access it via ssh, and how to use it responsibly.</p>
+              </div>
+            </div>
+        <!-- Add more rows like this -->
+      </div>
+    </TalkSection>
+
+    <TalkSection title="Conference Presentations" subtitle="Talks presented at scientific conferences.">
+      <div class="flex flex-col gap-8">
+        <div class="flex flex-col lg:flex-row gap-6 items-center">
+          <iframe
+            width="400"
+            height="225"
+            src="https://www.youtube.com/embed/XWdPHraC65E?si=6I7UgM3fCkBIvGCz"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            class="rounded-lg w-full lg:w-2/5"
+          ></iframe>
+          <div class="lg:w-3/5">
+            <h3 class="text-xl font-semibold mb-2">Supernovae in the Milky Way. </h3>
+            <p>Presented at <em>Boom! A Workshop on Explosive Transients with LSST</em>. I discussed to likelihood of LSST capturing the progenitor of the next supernova in the Milky Way and urged the galactic plane to not be entirely ignored in the observing schedule.</p>
+          </div>
+        </div>
+      </div>
+    </TalkSection>
+
+  </div>
+</Layout>
