@@ -1,18 +1,39 @@
 export const experiences = [
 	{
-		company: 'University of Illinois',
+	company: 'LSST Discovery Alliance',
+	time: '2025-current',
+	title: 'LSST-DA Data Science Fellow',
+	location: 'Urbana, IL',
+	description: 'Received training across 6 different high-intensity workshops on everything from Bayesian Statistics to Image Processing.',
+	},
+	{
+		company: 'Department of Astronomy, University of Illinois',
 		time: '2023-current',
 		title: 'Research Assistant',
 		location: 'Urbana, IL',
-		description: 'Working under Gautham Narayan to analyze 4+ years worth of DECam supernova data',
+		description: 'Creating catalog of thousands of supernovae seen with the Dark Energy Camera by the Young Supernova Experiment, analyzing them at a population level, and cross comparing them with other observatories like Pan-STARRS and Rubin.',
 	},
-	// {
-	// 	company: 'Radium Institute (Institut du Radium)',
-	// 	time: '1914 - 1934',
-	// 	title: 'Director',
-	// 	location: 'Paris, France',
-	// 	description: 'Led groundbreaking studies on radioactivity and mentored future Nobel Prize laureates.',
-	// },
+	{
+		company: 'Center for Computational Astrophysics, Flatiron Institute',
+		time: '2023',
+		title: 'Research Consultant',
+		location: 'New York, NY',
+		description: 'Performed cosmological analysis using LIGO gravitational-wave data and a model for the mass function of black holes.',
+	},
+	{
+		company: 'Department of Physics and Astronomy, Stony Brook University',
+		time: '2022',
+		title: 'Research Assistant',
+		location: 'Stony Brook, NY',
+		description: 'Used the theoretical and observed overabundance of black hole masses at 35 solar masses and Markov Chain-Monte Carlo techniques to estimate cosmological parameters (Hubble constant, matter/energy densities).',
+	},
+	{
+		company: 'Department of Astronomy, University of Illinois',
+		time: '2018-2021',
+		title: 'Undergraduate Researcher',
+		location: 'Urbana, IL',
+		description: 'Used models for the distribution of Galactic supernovae and dust to predict why humans haven\'t recorded a naked-eye Galactic supernova in 400 years and where on the sky we should look to find the next one.',
+	},
 ];
 
 export const education = [
