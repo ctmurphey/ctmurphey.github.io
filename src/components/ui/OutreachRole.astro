@@ -1,0 +1,27 @@
+---
+export interface Props {
+  title: string;
+  organization: string;
+  tenure: string;
+  description: string;
+  responsibilities: string[];
+}
+
+const { title, organization, tenure, description, responsibilities } = Astro.props;
+---
+
+<div class="border-l-4 border-primary bg-base-200 rounded-r-xl px-6 py-5 mb-8 shadow-md">
+  <div class="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-1 mb-3">
+    <div>
+      <h2 class="text-2xl font-bold">{title}</h2>
+      <p class="text-base-content/70 text-sm font-medium">{organization}</p>
+    </div>
+    <span class="text-sm font-semibold text-primary whitespace-nowrap">{tenure}</span>
+  </div>
+  <p class="text-base mb-4">{description}</p>
+  <ul class="list-disc list-inside space-y-1">
+    {responsibilities.map((r) => (
+      <li class="text-base text-base-content/90">{r}</li>
+    ))}
+  </ul>
+</div>
