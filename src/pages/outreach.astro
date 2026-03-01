@@ -28,13 +28,13 @@ import Eclipse from "@/assets/eclipse-group-cropped.jpeg";
       title="Outreach Committee Co-Chair"
       organization="Department of Astronomy, University of Illinois, Urbana-Champaign"
       tenure="2025 – 2027"
-      description=`As Outreach Co-Chair, I help coordinate and expand the department's public engagement efforts, working to make astronomy accessible to 
-      audiences across the broader Champaign-Urbana community and beyond.`
+      description=`As Outreach Co-Chair, I help coordinate and expand the department's public engagement efforts, 
+      working to make astronomy accessible to audiences across the broader Champaign-Urbana community and beyond.`
       responsibilities={[
         "Organize and schedule department outreach events throughout the academic year",
         "Recruit and coordinate graduate student volunteers for outreach activities",
-        "Maintain relationships with partner organizations such as the Adler Planetarium and local schools",
-        "TODO: add more responsibilities here",
+        "Facilitate outreach requests from local schools and community organizations such as the Adler Planetarium",
+        "Track event attendance to document the department's outreach reach and growth over time",
       ]}
     />
 
@@ -44,16 +44,23 @@ import Eclipse from "@/assets/eclipse-group-cropped.jpeg";
 
     <OutreachCategory
       title="Adler Planetarium"
-      description="Volunteer astronomy expert in Chicago, IL"
+      description="Volunteer Astronomy Expert in Chicago, IL"
     >
       <OutreachItem
         title="Astronomy Conversations"
-        description=`I travel up to Chicago to volunteer as an astronomy expert at the 
-        Adler Planetarium a few times a year. I provide insight to Planetarium visitors 
-        as to what life is like as a professional astronomer and converse with them 
-        about anything they find interesting. We are also given access to many videos 
-        on a tv display to help the visitors visualize various astronomical phenomena.`
-        imageSrc={AdlerLogo}
+        description=`Every 3 months, I join a group of around six UIUC Astronomy grad 
+        students for the trip up to Chicago to volunteer at the Adler Planetarium's 
+        Astronomy Conversations program. Visitors can ask us anything: what our 
+        research is about, what it's like to be an astronomer, or whatever space 
+        topic caught their eye that day. We also have a tablet-controlled display 
+        with visualizations of phenomena like neutron star mergers, the cosmic 
+        microwave background, and galaxy mergers, which helps make some of the 
+        more abstract concepts tangible. My favorite part, though, is walking visitors 
+        through the Galaxy Zoo, a project which Adler helps run. Visitors classify 
+        galaxies as smooth, featured, or not a galaxy at all, corresponding to spiral 
+        galaxies, elliptical galaxies, or stars/image artifacts. We then get to explain 
+        that their selections are genuinely contributing to science by helping train 
+        machine learning models used in real research.`
         alt="Adler Planetarium Logo"
       />
     </OutreachCategory>
@@ -62,16 +69,72 @@ import Eclipse from "@/assets/eclipse-group-cropped.jpeg";
       title="Schools & Libraries"
       description="Outreach visits to local schools and public libraries"
     >
+    <p>
+      My favorite demonstration that we run for our school and library visits is an
+      interactive spectroscopy one that shows how astronomers learn what elements 
+      distant objects are made of. We start by giving the audience diffraction gratings
+      and having them view an incandescent light bulb through it. They see a rainbow, as 
+      the filament inside the bulb is glowing hot with a blackbody spectrum. We then swap
+      the bulb out for a glass tube with a single element, usually neon as its emission
+      lines are particularly bright and vivid, and have them notice that the rainbow has
+      been replaced with only certain colors making lines in a barcode pattern. The neon
+      is then swapped for another element like helium and the audience sees a completely
+      different "barcode". We finish up by explaining how every element has its own unique
+      "barcode" and that astronomers can use this to find out what elements distant stars,
+      planets, and even galaxies are made of. All they have to do is stick a diffraction grating
+      on the end of a telescope and read the barcodes.
+    </p>
+    <OutreachItem
+      title="STEM Night at Yankee Ridge Multilingual School"
+      description=`With the help of two other Astronomy grad students, I participated in
+      STEM Night at Yankee Ridge Multilingual School in Urbana. Along with the spectroscopy
+       demo, we also set up a model Solar System with planets scaled to the size of our 
+       model Sun. However, because the scale distances would still put the outer planets 
+       over 100 yards away, we had to scale the distances down by another factor of 10 
+       to fit enough planets in the gymnasium to turn searching for them into a mini 
+       scavenger hunt.`
+       secondParagraph=`The hightlight of the event came near the end of the night. 
+       A small group of boys, probably 9 or 10 years old each, came up to our table. 
+       However, when I started the same spectra spiel I'd been giving the rest
+       of the night, this time I was met with blank stares. It wasn't until one of them
+       muttered "no hablamos inglés" that I realized what was happening. We had been told ahead
+       of time that we wouldn't need anything other than English for the event, which is why I
+       was caught off guard. I requested "un momento, por favor" from them, drew upon whatever
+       remained of my high school and college Spanish classes, and walked them through the demo
+       without using full sentences: "Todos los colores" for the incandescent bulb's rainbow and
+       "No todos los colores" for the first gas tube. The second gas tube and outro was along the
+       lines of "otros colores. Todos los elementos tienen colores diferentes, y es como los 
+       astrónomos aprenden qué elementos están en el sol y otras estrellas." While it wasn't 
+       exactly the fluency they had, it was enough to where they left with smiles on their faces.`
+    />
+
+    <OutreachItem
+      title="STEAM Night at Barkstall Elementary"
+      description=`Two other Astronomy grad students and I set up a table at Barkstall 
+      Elementary in Savoy, IL for their STEAM (STEM+Arts) Night. In addition to the spectra demo
+      that I was running, one of the other grad students brought an actual meteorite she had that
+      the attendees could pick up and hold. Being essentially a solid lump of iron and nickel, it
+      was deceptively heavy. We also ran a demo on gravity using a sheet of elastic stretched over
+      a hoop that the attendees could roll marbles across. We then put a heavier marble in the middle
+      to show how massive objects distort spacetime and how that changes the trajectory of the marbles.
+      The kids were enthusiastic throughout, but the most memorable moment of the night actually came 
+      from one of the parents. One of the students' fathers clearly had a physics background, as he
+      started asking more technical questions about the differences between the broad spectrum the bulb
+      was producing and the emission lines the gas was producing. Having been in the "barcodes and rainbows"
+      mindset for the previous hour or so, it took me a few seconds to shift gears back into "blackbodies
+      and orbitals" before I was able to answer his questions. It provided a funny little dose of variety
+      in an already fun night of wowing people with astronomy.`
+      />
+
       <OutreachItem
-        title="Jump Into Science"
-        description=`Gave a presentation and demonstration with a fellow grad student at the Urbana Free Library to local
-         elementary school children. We started off with a demonstration of how astronomers use
-         spectra to find elements in the sun, having them guess what elements from a given table
-         corresponded to the one we were illuminating after they saw the emission lines through 
-         diffraction gratings. We then talked about the planets in our Solar System, giving fun 
-         facts about each before having them draw their favorite planets. We finished up with 
-         having the children space themselves out according to their favorite planet so they could see
-         just how far away the outer planets can be.`
+        title="Jump! Into Science at the Urbana Free Library"
+        description=`Together with a fellow grad student, I gave a presentation 
+        some hands-on demonstrations for elementary school children at the Urbana 
+        Free Library. We opened with the spectoscopy demonstration before going through 
+        the planets of our Solar System with fun facts and having the kids draw their 
+        favorites. We wrapped up by having them physically space themselves out across 
+        the room according to their favorite planet, which turned out to be a great way 
+        to show just how vast the outer Solar System really is.`
       />
       <!-- Add additional school/library events here -->
     </OutreachCategory>
@@ -82,26 +145,38 @@ import Eclipse from "@/assets/eclipse-group-cropped.jpeg";
     >
       <OutreachItem
         title="Urbana Science at the Market"
-        description=`Twice have set up solar telescopes with 3-5 other UIUC Astronomers at the local 
-        Urbana Farmers Market to allow guests to see sunspots safely. We also set up other displays like 
-        a scale model of planet sizes and their corresponding distances from the Sun if they were that 
-        size, and some stickers for kids to take home to possibly keep them interested in space. We also 
-        happily chat about anything space related, from what we work on for our research to whatever the 
+        description=`Twice every Summer I set up telescopes with 3 to 5 other 
+        UIUC Astronomers at the local Urbana Farmers Market. We attach solar filters 
+        to allow guests to see sunspots safely. We also set up other displays like 
+        a scale model of planet sizes with a list of their scale distance from the Sun, 
+        as well as some stickers for kids. We also are more than happy to chat about 
+        anything space related, from what we work on for our research to whatever the 
         latest astronomy news is.`
       />
       <OutreachItem
         title="Stargazing at Local Parks"
-        description=`I've travelled to Allerton Park and Middle Fork River Forest Preserve (an International 
-        Dark Sky Park) with other UIUC Astronomers to help run stargazing and telescope events. We set up 
-        and allow the public attendees to look through our 8" Dobsonian Telescopes and stare at the stars 
-        under pristine skies. The single best moment I had while outreaching was when an ~8 year old girl 
-        saw Saturn through one of the telescopes and screamed with joy. It had risen above the horizon just 
-        in time before we had to pack up, and hearing her so happy to see the planet (it's both of our favorite) 
-        filled my heart.`
+        description=`Multiple times a year I travel to Allerton Park and Middle Fork 
+        River Forest Preserve (an International Dark Sky Park) with other UIUC 
+        Astronomers to help run public stargazing and telescope events. We set up 
+        and allow the attendees to look through our 8" Dobsonian Telescopes and stare 
+        at the planets and stars under some of the most pristine skies in the country. One of the 
+        best moments I've had while outreaching was when an ~8 year old girl saw Saturn 
+        through one of these telescopes and screamed with joy. It had risen above the 
+        horizon just in time before we had to pack up, and hearing her so happy to see 
+        the planet filled my heart (it's both of our favorite).`
       />
       <OutreachItem
-        title="UIUC Campus Observatory Open Houses"
-        description=`TODO: Add your description of the observatory open house talks here.`
+        title="UIAS Astronomy Open House: Ask an Astronomer"
+        description=`I've twice given talks at the historic University of Illinois Observatory
+                    during the University of Illinois Astronomical Society's Astronomy Open House 
+                    as part of their Ask an Astronomer program. The talks were on
+                    the lifecycles of stars, covering their births to their deaths. Audience members 
+                    tended to be curious undergrads with no astronomy background, though the second 
+                    talk drew a broader crowd thanks to better weather. Each talk was slideshow-based 
+                    but with a strong emphasis on audience questions even if they send us on a 
+                    tangent. After the talks I was told by multiple audience members how, despite 
+                    covering a huge topic in stellar evolution in a couple hours, they were still 
+                    able to follow along easily.`
       />
       <!-- Add additional stargazing events here -->
     </OutreachCategory>
@@ -112,8 +187,9 @@ import Eclipse from "@/assets/eclipse-group-cropped.jpeg";
     >
       <OutreachItem
         title="Total Eclipse of the Park, 2024"
-        description=`Traveled with 11 other UIUC astronomers to Marion, IL to Mountain Dew Park, home of the Thrillville Thrillbillies 
-        Prospect League baseball team, for the May 2024 Solar Eclipse. We set up several solar telescopes
+        description=`For the May 2024 Solar Eclipse, I traveled with 11 other UIUC 
+        astronomers to Marion, IL to Mountain Dew Park, home of the Thrillville 
+        Thrillbillies Prospect League baseball team. We set up several solar telescopes
         and provided astronomy expertise to a crowd of over 1500 fellow eclipse viewers. As a passionate 
         astronomer and baseball fan, a day of talking astronomy and baseball while witnessing a surreal 
         once-in-a-lifetime astronomical event such as a total solar eclipse was the most fun I've possibly 
