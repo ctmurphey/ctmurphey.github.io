@@ -4,6 +4,7 @@ import { Image } from 'astro:assets';
 export interface Props {
   title: string;
   description: string;
+  secondParagraph?: string;
   imageSrc?: ImageMetadata;
   alt?: string;
 }
@@ -16,6 +17,9 @@ const { title, description, imageSrc, alt = "" } = Astro.props;
     <div>
       <h2 class="text-lg font-semibold mb-2">{title}</h2>
       <p class="text-base whitespace-normal">{description}</p>
+          {secondParagraph && (
+            <p class="text-base whitespace-normal mt-3">{secondParagraph}</p>
+          )}
     </div>
     {imageSrc && (
       <div class="w-full">
